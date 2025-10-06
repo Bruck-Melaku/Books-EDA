@@ -18,8 +18,19 @@ The main objectives of this EDA are:
 - **Matplotlib** – for basic data visualization
 - **Seaborn** – for advanced statistical visualizations
 
+## Import required libraries
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+```
+
+## Load the data into python
+```python
+df = pd.read_csv("Books_Data_Clean.csv")
+```
+
+## Show the 1st 5 rows of the data
+```python
+df.head()
 ```
