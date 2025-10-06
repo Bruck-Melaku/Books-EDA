@@ -18,3 +18,7 @@ The main objectives of this EDA are:
 - **Matplotlib** – for basic data visualization
 - **Seaborn** – for advanced statistical visualizations
 
+python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
